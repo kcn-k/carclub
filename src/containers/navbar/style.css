@@ -1,0 +1,18 @@
+.navbar-logo {
+  height: 70px;
+  width: 150px;
+  border-radius: 50%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: #3aafa9;
+}
+.navbar-sign-in-btn {
+  padding-top: 12px;
+}
+.navbar-user-pfp {
+  height: 35px;
+  border-radius: 50%;
+}

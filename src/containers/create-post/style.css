@@ -1,0 +1,11 @@
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  font-weight: 500;
+  padding: 24px;
+}
+.post-p-c {
+  padding: 8px;
+}

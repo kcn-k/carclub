@@ -1,0 +1,9 @@
+.sign-in-btn-container {
+  background-color: #17252a;
+  max-width: 150px;
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: #ffff;
+  font-weight: 500;
+}
