@@ -58,6 +58,7 @@ export default function Post() {
           setCaption("");
           setProgress(0);
           setImage(null);
+          document.getElementById("img-preview").style.display = "none";
         }
       );
     }

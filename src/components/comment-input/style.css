@@ -1,0 +1,17 @@
+.c-input-container {
+  display: flex;
+  justify-content: space-between;
+}
+.c-input-textarea {
+  border: none;
+  width: 100%;
+  background-color: #def2f1;
+  resize: none;
+  outline: none;
+  margin: 8px 0px;
+}
+.c-input-post-btn {
+  background-color: #def2f1;
+  border: none;
+  font-weight: 500;
+}
