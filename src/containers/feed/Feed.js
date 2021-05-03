@@ -8,9 +8,16 @@ export default function Feed() {
 
   useEffect(() => {
     db.collection("posts").onSnapshot((snapshot) => {
-      setPost(snapshot.docs.map((doc) => ({ id: doc.id, post: doc.data() })));
+      setPost(
+        snapshot.docs
+          .map((doc) => ({ id: doc.id, post: doc.data() }))
+          .sort(function (a, b) {
+            console.log("a", a);
+            return b.post.timestamp - a.post.timestamp;
+          })
+      );
     });
-    console.log(post);
+    console.log(post, "allposts");
   }, []);
 
   return (

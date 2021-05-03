@@ -9,7 +9,6 @@ export default function SignInBtn() {
   const signInBtnClick = async () => {
     let userSignIn = await signInWithGoogle();
     if (userSignIn) setUser(userSignIn);
-    //console.log(userSignIn);
   };
 
   return (

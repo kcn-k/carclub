@@ -7,10 +7,9 @@ import Home from "./pages/home/Home";
 function App() {
   return (
     <UserContextProvider>
-      <div className="App">
-        <div>
+      <div className="app">
+        <div className="app-container">
           <Navbar />
-          <Home />
         </div>
       </div>
     </UserContextProvider>
